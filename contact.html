@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Acerca de</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+    <div class="container">
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form action="/submit_form" method="post">
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" required /><br /><br />
+          <label for="email">Correo electrónico:</label>
+          <input type="email" name="email" id="email" required /><br /><br />
+          <label for="message">Mensaje:</label><br />
+          <textarea
+            name="message"
+            id="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+          <br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2020 Mi primer sitio web. Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

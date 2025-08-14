@@ -1,0 +1,44 @@
+body {
+  background-image: url(/img/fondo.jpg);
+  padding: 12px;
+}
+header {
+  font-weight: bold;
+  text-align: center;
+  background: #6d6d6d;
+  color: white;
+  padding: 8px;
+  margin: 4px;
+  text-transform: capitalize;
+}
+nav {
+  margin: 8px 4px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  background: #6d6d6d;
+}
+a {
+  text-align: center;
+  padding: 4px;
+  flex: auto;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+a:hover {
+  background-color: #e6e4e4;
+  color: black;
+}
+table {
+  display: block;
+  flex: auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  background-color: #6d6d6d;
+  color: white;
+}
+#tabla {
+  text-align: center;
+  display: flex;
+}
