@@ -1,44 +1,75 @@
+:root {
+  --bg-main: #ffffff;
+  --bg-secondary: #f2f1f5;
+  --accent: #a9d3ff;
+  --text: #000009;
+}
+
 body {
-  background-image: url(/img/fondo.jpg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg-secondary);
   padding: 12px;
+  padding: 0;
+  margin: 0;
 }
 header {
+  width: 100%;
   font-weight: bold;
   text-align: center;
-  background: #6d6d6d;
-  color: white;
+  background: var(--bg-main);
+  color: var(--text);
   padding: 8px;
-  margin: 4px;
   text-transform: capitalize;
 }
 nav {
-  margin: 8px 4px;
-  padding: 8px;
+  width: 100%;
+  padding: 16px;
   display: flex;
   align-items: center;
-  background: #6d6d6d;
+  background: var(--bg-main);
 }
 a {
   text-align: center;
-  padding: 4px;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 0 4px;
   flex: auto;
   text-decoration: none;
-  color: white;
+  color: var(--text);
+  background-color: var(--bg-secondary);
   font-size: larger;
 }
 a:hover {
-  background-color: #e6e4e4;
-  color: black;
+  background-color: var(--accent);
+  color: var(--text);
 }
 table {
+  margin: 0 auto;
   display: block;
   flex: auto;
-  border: 1px solid rgb(255, 255, 255);
-  border-collapse: collapse;
-  background-color: #6d6d6d;
-  color: white;
+  background-color: var(--bg-secondary);
+  color: var(--text);
 }
-#tabla {
+td,
+tr,
+th {
+  padding: 12px;
+  flex: auto;
+}
+.container {
+  padding: 12px;
+  margin: 12px;
   text-align: center;
-  display: flex;
+  background-color: var(--bg-main);
+  border-radius: 2px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--bg-main);
+  text-align: center;
+  padding: 0 8px;
 }
