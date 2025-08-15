@@ -75,6 +75,8 @@ th {
   margin: 12px;
   text-align: center;
   display: flex;
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center; /* centra verticalmente si la altura lo permite */
 }
 
 .container img {
@@ -100,6 +102,13 @@ footer {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2%; /*ns, ajustar o algo*/
+}
+
+#info table {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
 }
 
 /* para voltear mi monito */
