@@ -112,6 +112,7 @@ footer {
   margin-right: 5%;
   padding: 2%; /*ns, ajustar o algo*/
   margin: 0 48px;
+  flex-grow: 1;
 }
 
 #info table {
@@ -130,23 +131,57 @@ img {
   padding: 0 8px;
 }
 
-.text {
-  background-color: #000;
-  border: none;
+.text,
+textarea {
+  background-color: #313234;
+  box-shadow: inset 0 4px 0 0 #000000;
+  border: 2px solid black;
+  color: white;
+  caret-color: white;
+  font-family: MinecraftiaRegular;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  resize: none;
+  font-size: larger;
 }
 
-textarea {
-  background-color: #000;
+.text:focus,
+textarea:focus {
+  outline: none;
 }
 
 ul,
 ol {
   text-align: left;
-  margin: 0 auto;
+  margin: 0 20%;
 }
 
 #contact {
-  background-color: #999999;
+  background-color: #c6c6c6;
+  color: #373737;
   padding: 24px;
   margin: 0 auto;
+  border: 4px solid;
+  border-bottom-width: 4px;
+  border-color: #fdfdfd #5a5c5b #5a5c5b #fdfdfd;
+  outline: 2px solid #000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input[type="submit"] {
+  margin: 0 auto;
+  padding: 8px 24px;
+  width: 50%;
+  text-align: center;
 }
