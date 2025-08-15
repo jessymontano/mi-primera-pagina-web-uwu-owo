@@ -102,10 +102,13 @@ footer {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 2%; /*ns, ajustar o algo*/
 }
 
 #info table {
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   display: table;
