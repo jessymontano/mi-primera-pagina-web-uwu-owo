@@ -1,6 +1,6 @@
 @font-face {
   font-family: MinecraftiaRegular;
-  src: url(/fonts/MinecraftRegular-Bmg3.otf);
+  src: url(./fonts/MinecraftRegular-Bmg3.otf);
 }
 
 /* este es para que quede exacto a la medida de la pantalla creo */
@@ -12,7 +12,7 @@
 body {
   font-family: MinecraftiaRegular, Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  background: url(/img/2025-05-21_16.44.09.png);
+  background: url(./img/2025-05-21_16.44.09.png);
   background-size: cover;
   padding: 12px;
   padding: 0;
